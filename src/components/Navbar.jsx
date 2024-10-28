@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <nav className="bg-indigo-600 text-white py-6 px-2 md:p-6 shadow-md sticky top-0 w-full z-20">
       <div className="container mx-auto flex flex-wrap items-center justify-between">
-        <h1 className=" sm:text-md md:text-2xl font-bold">
+        <h1 className=" text-md md:text-2xl font-bold">
           <span className="text-yellow-500">Satisfy</span> Trading & Services W.L.L
         </h1>
         <button
