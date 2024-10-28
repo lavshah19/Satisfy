@@ -7,9 +7,9 @@ const Navbar = () => {
   const location = useLocation();
 
   return (
-    <nav className="bg-indigo-600 text-white p-6 shadow-md sticky top-0 w-full z-20">
+    <nav className="bg-indigo-600 text-white py-6 px-2 md:p-6 shadow-md sticky top-0 w-full z-20">
       <div className="container mx-auto flex flex-wrap items-center justify-between">
-        <h1 className="text-xl font-bold">
+        <h1 className=" sm:text-md md:text-2xl font-bold">
           <span className="text-yellow-500">Satisfy</span> Trading & Services W.L.L
         </h1>
         <button
@@ -25,7 +25,7 @@ const Navbar = () => {
           id="navbar-menu" 
           className={`w-full md:flex md:items-center md:w-auto ${isOpen ? '' : 'hidden'}`}
         >
-          <div className="flex flex-col md:flex-row md:space-x-6 text-xl">
+          <div className={`flex flex-col md:flex-row md:space-x-6 text-md md:text-xl ${isOpen ? 'mt-4 gap-3' : ''}`}>
             <Link 
               to="/" 
               className={`hover:text-indigo-200 relative ${location.pathname === '/' ? 'text-indigo-200 border-b-2 border-yellow-400' : ''}`}
