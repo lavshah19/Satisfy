@@ -13,7 +13,7 @@ const Navbar = () => {
           <span className="text-yellow-500">Satisfy</span> Trading & Services W.L.L
         </h1>
         <button
-          className="text-white md:hidden text-2xl"
+          className="text-white md:hidden text-3xl"
           onClick={() => setIsOpen(!isOpen)}
           aria-expanded={isOpen}
           aria-controls="navbar-menu"
