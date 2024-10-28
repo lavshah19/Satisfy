@@ -17,7 +17,7 @@ const Footer = () => {
 
           {/* Center: Links */}
           <div className="mb-4 md:mb-0 text-center">
-            <h4 className="text-xl font-semibold text-yellow-500">Quick Links</h4>
+            <h4 className="text-xl font-semibold "><span className='text-yellow-500'>Quick </span>Links</h4>
             <ul className="flex space-x-4 text-lg">
               <li><Link to="/" className="hover:text-yellow-300 hover:underline">Home</Link></li>
               <li><Link to="/services" className="hover:text-yellow-300 hover:underline">Services</Link></li>
@@ -31,7 +31,7 @@ const Footer = () => {
 
           {/* Right Side: Social Media */}
           <div>
-            <h4 className="text-xl font-semibold text-yellow-500">Follow Us</h4>
+            <h4 className="text-xl font-semibold"> <span className='text-yellow-500'>Follow </span> Us</h4>
             <div className="flex space-x-4 mt-2">
               <a href="https://facebook.com" aria-label="Follow us on Facebook" className="hover:text-yellow-300">
                 <FontAwesomeIcon icon={faFacebook} className='text-xl'/>
